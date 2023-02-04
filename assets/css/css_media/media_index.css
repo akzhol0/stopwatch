@@ -1,0 +1,40 @@
+@media only screen and (max-width: 725px) {
+    section {
+        width: 500px;
+        height: 300px;
+    }
+    section .timer-wrapper {
+        font-size: 100px;
+    }
+    .btns-wrapper input {
+        padding: 15px 30px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    section {
+        width: 400px;
+        height: 200px;
+    }
+    section .timer-wrapper {
+        font-size: 80px;
+    }
+    .btns-wrapper input {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 380px) { 
+    section {
+        width: 300px;
+        height: 180px;
+    }
+    section .timer-wrapper {
+        font-size: 60px;
+    }
+    .btns-wrapper input {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
